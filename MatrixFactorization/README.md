@@ -1,4 +1,4 @@
-Used to decompose a square matrix (a range object) into factors using:
+Used to decompose a square matrix (a range object), "A", into factors using:
 
 1. LU Decomposition; or
 2. Cholesky Decomposition.
