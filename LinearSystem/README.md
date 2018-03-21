@@ -6,6 +6,8 @@ Used to solve the linear algebra equation A.x = b using either:
 ie. A is not inverted when solving for x.
 
 A must be a square matrix.
+A and b are range objects.
+Returns an array, being the 'x' vector.
 
 Usage:
 
