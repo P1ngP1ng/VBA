@@ -9,10 +9,10 @@ A must be a square matrix.
 
 Usage:
 
-Dim ls as LinearSystem
-Dim x_GJ as Variant
-Dim x_GS as Variant
+Dim ls as LinearSystem  
+Dim x_GJ as Variant  
+Dim x_GS as Variant  
 
-set ls = New LinearSystem
-x_GJ = ls.GaussJordan(A, b)
-x_GS = ls.GaussSeidel(A, b, 10, 0.0001)
+set ls = New LinearSystem  
+x_GJ = ls.GaussJordan(A, b)  
+x_GS = ls.GaussSeidel(A, b, 10, 0.0001)  
