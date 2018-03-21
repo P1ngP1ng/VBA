@@ -3,6 +3,9 @@ Used to decompose a square matrix (a range object), "A", into factors using:
 1. LU Decomposition; or
 2. Cholesky Decomposition.
 
+Returns an array, being the relevant factor.  
+For Cholesky, the lower triangle is returned.
+
 Usage:
 
 Dim fac As Factorization  
